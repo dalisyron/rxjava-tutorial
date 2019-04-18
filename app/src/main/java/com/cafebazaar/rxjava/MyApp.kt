@@ -2,7 +2,7 @@ package com.cafebazaar.rxjava
 
 import android.app.Application
 
-class RxJavaApp : Application() {
+class MyApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
@@ -11,6 +11,6 @@ class RxJavaApp : Application() {
     }
 
     companion object {
-        lateinit var instance: RxJavaApp
+        lateinit var instance: MyApp
     }
 }

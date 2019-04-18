@@ -2,7 +2,7 @@ package com.cafebazaar.rxjava
 
 data class Country(
     val altSpellings: List<String?>?,
-    val area: Int?,
+    val area: Double?,
     val borders: List<Any?>?,
     val callingCode: List<String?>?,
     val capital: List<String?>?,
